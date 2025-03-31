@@ -151,7 +151,7 @@ async def read_root():
     """Serve the index.html file"""
     return FileResponse("static/index.html")
 
-if __name__ == "__main__":
-    import uvicorn
-    print_yellow("Starting server on http://0.0.0.0:8000")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# if __name__ == "__main__":
+#     import uvicorn
+#     print_yellow("Starting server on http://0.0.0.0:8000")
+#     uvicorn.run(app, host="0.0.0.0", port=8000)
