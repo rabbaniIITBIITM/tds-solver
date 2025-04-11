@@ -2,6 +2,9 @@
 
 tdsp2env\Scripts\Activate   
 
+# code to re run
+uvicorn app:app --reload
+
 
 # sample local api testing code
 Invoke-RestMethod -Uri "http://127.0.0.1:8000/run?task=hi" -Method Post -ContentType "application/json"
